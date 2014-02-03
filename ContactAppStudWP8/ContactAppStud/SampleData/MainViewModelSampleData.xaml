@@ -1,0 +1,11 @@
+﻿<vm:ContactsViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:ContactAppStud.ViewModels"
+    SampleProperty="Valeur de propriété d'un texte d'exemple">
+
+    <vm:ContactsViewModel.Items>
+        <vm:ContactViewModel ID="0" Nom="conception une" Prenom="Maecenas praesent accumsan bibendum" Mail="test@test" Picture="/SampleData/COCKTAIL.jpg"/>
+     </vm:ContactsViewModel.Items>
+
+</vm:ContactsViewModel>
